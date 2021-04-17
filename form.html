@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+	<form>
+    <h3>3. Payment method</h3>
+
+    <div class="row mb-3">
+    <div class="col-md-6">
+    	<div class="custom-control custom-radio">
+            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+            <label class="custom-control-label" for="credit">PayPal</label>
+            <p class="text-descripcion">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble.</p> 
+        </div> 
+    </div>
+    <div class="col-md-6">
+    	<img src="img/money.svg">
+    </div>
+	</div><!-- End Paypal-->
+
+	<div class="row mb-3">
+		<div class="col-md-6">
+			<div class="custom-control custom-radio">
+                    <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                    <label class="custom-control-label" for="credit">Credit Card</label>
+                    <p class="text-descripcion">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
+                </div> 
+		</div>
+		<div class="col-md-6">
+			<img src="img/visa-logo-21.png">
+		</div>
+	</div><!-- End Credit-->
+
+	<div class="col-12">
+              <input type="text" class="form-control" id="numero" placeholder="4154 **** **** 4562">
+    </div>
+
+	<div class="row mb-4 mover">
+		<div class="col-md-3">
+			<select id="" name="" class="form-control">
+				<option value="1">M M</option>
+			  </select>
+		</div>
+		<div class="col-md-3">
+			<select id="" name="" class="form-control">
+				<option value="1">Y Y</option>
+			  </select>
+		</div>
+		<div class="col-md-6">
+			<div class="input-group has-validation">
+				
+				<input type="text" class="form-control cvv" id="" placeholder="CVV / CVC">
+				<span class="input-group-text">?</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-12">
+		<input id="" name="" type="text" placeholder="CARDHOLDER NAME" class="form-control input-md">
+	</div>
+
+	<div class="row mb-3">
+		<div class="col-md-4">
+			<button class="w-100 btn btn-primary btn-small" type="reset">Back</button>
+		</div>
+		<div class="col-md-4">
+			<button class="w-100 btn btn-primary btn-small" type="submit">Continue</button>
+		</div>
+	</div>
+
+	</form>
+</div><!-- End Container-->
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+body {
+    background: #f5f5f5
+}
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}
+form{
+     width: 50%;
+     box-shadow : 5px 7px 40px rgb(208 208 208);
+}
+h3{
+    background:#f3f3f3;
+    color: #777676;
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.mb-3{
+    padding-left: 30px;
+    color: #757575;
+}
+img{
+    padding-left: 150px;
+}
+.custom-control-label{
+    color: #757575;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.text-descripcion{
+    padding-left: 10px;
+    width: 140%;
+    font-size: 12px;
+}
+.mover{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.w-100{
+    padding-top: 20px;
+}
+button[type="reset"] {
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-left: 170px;
+}
